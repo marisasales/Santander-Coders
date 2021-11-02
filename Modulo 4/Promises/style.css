@@ -1,0 +1,38 @@
+body {
+  font: 1.2rem 'Fira Sans', sans-serif;
+  text-align: center;
+	background-color: whitesmoke;
+}
+
+#list {
+	margin-top: 2rem;
+  padding: 0 2rem;
+	box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.089);
+	border-radius: 0.5rem;
+  width: 220px;
+  left: calc(50% - 140px);
+	position: fixed;
+}
+
+ul {
+  padding: 0 2rem;
+}
+
+button {
+	color: white;
+	border: none;
+	border-radius: 0.2rem;
+	padding: 0.56rem 1rem;
+}
+
+button[type='button'] {
+	background-color: dodgerblue;
+}
+
+button[type='submit'] {
+	background-color: red;
+}
+
+li {
+	list-style: none;
+}

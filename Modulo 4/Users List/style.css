@@ -1,0 +1,45 @@
+body {
+	font: 1.2rem 'Fira Sans', sans-serif;
+}
+
+.container {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	text-align: center;
+}
+
+input {
+	border-radius: 0.2rem;
+	padding: 0.5rem;
+	border: 1px solid gray;
+}
+
+button {
+	color: white;
+	border: none;
+	border-radius: 0.2rem;
+}
+
+button.btn-primary {
+	background-color: dodgerblue;
+	padding: 0.56rem 1rem;
+}
+
+button.btn-danger {
+	background-color: red;
+	padding: 0.4rem 1rem;
+	margin-bottom: 0.8rem;
+}
+
+li {
+	list-style: none;
+}
+
+span {
+	background-color: whitesmoke;
+	display: inline-block;
+	width: 18rem;
+	padding: 0.2rem 0 0.3rem 0;
+	margin-right: 0.5rem;
+}
