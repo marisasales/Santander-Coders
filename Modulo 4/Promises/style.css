@@ -25,11 +25,11 @@ button {
 	padding: 0.56rem 1rem;
 }
 
-button[type='button'] {
+button.btn-primary {
 	background-color: dodgerblue;
 }
 
-button[type='submit'] {
+button.btn-danger {
 	background-color: red;
 }
 

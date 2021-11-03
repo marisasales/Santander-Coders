@@ -42,3 +42,9 @@ function generateList() {
 		createListElement(concatResults);
 	});
 }
+
+function clearLists() {
+	while (ul.firstChild) {
+		ul.removeChild(ul.firstChild);
+	}
+}

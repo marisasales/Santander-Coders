@@ -8,17 +8,19 @@
 		<title>Desafio (Promises)</title>
 	</head>
 	<body>
-		<form>
-			<h1>Desafio Promises (Marisa Sales)</h1>
+		<h1>Desafio Promises (Marisa Sales)</h1>
 
-			<button type="button" onclick="generateList()">Gerar Lista</button>
-			<button type="submit">Limpar</button>
+		<button type="button" onclick="generateList()" class="btn-primary">
+			Gerar Lista
+		</button>
+		<button type="button" onclick="clearLists()" class="btn-danger">
+			Limpar
+		</button>
 
-			<div id="list">
-				<h2>Listas:</h2>
-				<ul></ul>
-			</div>
-		</form>
+		<div id="list">
+			<h2>Listas:</h2>
+			<ul></ul>
+		</div>
 		<script src="main.js"></script>
 	</body>
 </html>
