@@ -9,8 +9,8 @@ body {
   padding: 0 2rem;
 	box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.089);
 	border-radius: 0.5rem;
-  width: 220px;
-  left: calc(50% - 140px);
+	width: 260px;
+  left: calc(50% - 150px);
 	position: fixed;
 }
 
