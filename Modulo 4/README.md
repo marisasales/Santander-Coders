@@ -10,6 +10,8 @@ Exercícios passados como desafio do módulo de Javascript Browser API do Santan
 
 #### Biblioteca utilizada: [SweetAlert2](https://sweetalert2.github.io/)
 
+#### Ver no [Codepen](https://codepen.io/mahsales/pen/gOxopjm)
+
 #### Acrescentado ao Desafio:
 
 - Exibir Histórico
@@ -24,6 +26,8 @@ Exercícios passados como desafio do módulo de Javascript Browser API do Santan
 
 #### Projeto: [Users List](https://github.com/marisasales/Santander-Coders/tree/master/Modulo%204/Users%20List)
 
+#### Ver no [Codepen](https://codepen.io/mahsales/pen/PoKEVVp)
+
 #### Desafio: 
 
 Cadastrar um usuário na lista de usuários. Ao clicar no botão “Remover”, remover apenas o usuário indicado. 
@@ -33,6 +37,8 @@ Cadastrar um usuário na lista de usuários. Ao clicar no botão “Remover”, 
 ### Listas Numéricas (Promises):
 
 #### Projeto: [Promises](https://github.com/marisasales/Santander-Coders/tree/master/Modulo%204/Promises)
+
+#### Ver no [Codepen](https://codepen.io/mahsales/pen/XWaVBdv)
 
 ![promises.jpg](https://github.com/marisasales/Santander-Coders/blob/master/Modulo%204/img/promises.jpg?raw=true)
 
