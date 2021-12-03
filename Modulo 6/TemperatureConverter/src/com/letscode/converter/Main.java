@@ -12,14 +12,14 @@ public class Main {
     System.out.print("Informe a temperatura em celsius: ");
     float celsius = input.nextFloat();
 
-    final float FAHRENHEIT = (celsius * 1.8f) + 32;
+    final float FAHRENHEIT = (celsius * 1.8f) + 32f;
     final float KELVIN = celsius + 273.15f;
     final float REAUMUR = celsius * 0.8f;
     final float RANKINE = (celsius * 1.8f) + 491.67f;
 
-    System.out.printf("18 ºC convertido para Fahrenheit é %.2f ºF %n", FAHRENHEIT);
-    System.out.printf("18 ºC convertido para Kelvin é %.2f K %n", KELVIN);
-    System.out.printf("18 ºC convertido para Réaumur é %.2f ºRé %n", REAUMUR);
-    System.out.printf("18 ºC convertido para Rankine %.2f ºRa %n", RANKINE);
+    System.out.printf("%.2f ºC convertido para Fahrenheit é %.2f ºF %n", celsius, FAHRENHEIT);
+    System.out.printf("%.2f ºC convertido para Kelvin é %.2f K %n", celsius, KELVIN);
+    System.out.printf("%.2f ºC convertido para Réaumur é %.2f ºRé %n", celsius, REAUMUR);
+    System.out.printf("%.2f ºC convertido para Rankine %.2f ºRa %n", celsius, RANKINE);
   }
 }
