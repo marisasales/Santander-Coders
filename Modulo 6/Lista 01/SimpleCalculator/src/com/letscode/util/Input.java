@@ -6,12 +6,12 @@ public class Input {
   private static Scanner scan = new Scanner(System.in);
 
   public static int operatorMenu() {
-    System.out.println("------- Menu -------");
-    System.out.println("[1] Soma -----------");
-    System.out.println("[2] Subtração ------");
-    System.out.println("[3] Multiplicação --");
-    System.out.println("[4] Divisão --------");
-    System.out.print("Resposta: ");
+    System.out.println("-------- Menu --------");
+    System.out.println("[1] Soma -------------");
+    System.out.println("[2] Subtração --------");
+    System.out.println("[3] Multiplicação ----");
+    System.out.println("[4] Divisão ----------");
+    System.out.print("Escolha a operação: ");
     return scan.nextInt();
   }
 

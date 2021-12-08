@@ -12,7 +12,7 @@ public class Main {
 
   public static void main(String[] args) {
     int[] numbers = new int[2];
-    int total = 0;
+    float total = 0;
     int operator = 0;
     char answer = 'N';
 
@@ -23,19 +23,19 @@ public class Main {
       switch (operator) {
         case 1:
           total = Calculator.add(numbers);
-          Output.result(numbers, '+', total);
+          Output.result(numbers, '+', total, false);
           break;
         case 2:
           total = Calculator.subtract(numbers);
-          Output.result(numbers, '-', total);
+          Output.result(numbers, '-', total, false);
           break;
         case 3:
           total = Calculator.multiply(numbers);
-          Output.result(numbers, '×', total);
+          Output.result(numbers, '×', total, false);
           break;
         case 4:
           total = Calculator.divide(numbers);
-          Output.result(numbers, '÷', total);
+          Output.result(numbers, '÷', total, true);
           break;
         default:
           Output.invalid(operator);

@@ -13,7 +13,7 @@ public class Calculator {
     return numbers[0] * numbers[1];
   }
 
-  public static int divide(int[] numbers) {
-    return numbers[0] / numbers[1];
+  public static float divide(int[] numbers) {
+    return (float) numbers[0] / numbers[1];
   }
 }
